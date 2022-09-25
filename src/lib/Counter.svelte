@@ -34,6 +34,14 @@
 	</button>
 </div>
 
+<!-- Test daisyui -->
+<div class="flex flex-auto">
+	<button class="btn btn-outline btn-accent" on:click={() => (count -= 1)}> Decrement </button>
+	<button class="btn btn-primary btn-outline btn-ghost mx-1" on:click={() => (count += 1)}>
+		Increment
+	</button>
+</div>
+
 <style>
 	.counter {
 		display: flex;
