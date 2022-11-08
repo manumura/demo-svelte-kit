@@ -16,10 +16,10 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.5.1",
-		"@typescript-eslint/eslint-plugin": "^5.40.1",
-		"@typescript-eslint/parser": "^5.40.1",
-		"autoprefixer": "^10.4.12",
-		"eslint": "^8.25.0",
+		"@typescript-eslint/eslint-plugin": "^5.42.1",
+		"@typescript-eslint/parser": "^5.42.1",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.27.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"postcss": "^8.4.18",
@@ -28,14 +28,14 @@
 		"svelte": "^3.52.0",
 		"svelte-check": "^2.9.2",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.1.8",
-		"tslib": "^2.4.0",
+		"tailwindcss": "^3.2.2",
+		"tslib": "^2.4.1",
 		"typescript": "^4.8.4",
-		"vite": "^3.1.8"
+		"vite": "^3.2.3"
 	},
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
-		"daisyui": "^2.31.0"
+		"daisyui": "^2.38.1"
 	}
 }
