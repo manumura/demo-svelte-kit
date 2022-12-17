@@ -13,6 +13,7 @@ type Todo = {
 export const load: PageServerLoad = async ({ locals }) => {
 	// locals.userid comes from src/hooks.js
 	const response = await api('GET', `todos/${locals.userid}`);
+	console.log('response: ', response);
 
 	if (response.status === 404) {
 		// user hasn't created a todo list.

@@ -10,6 +10,9 @@
 const base = 'https://api.svelte.dev';
 
 export function api(method: string, resource: string, data?: Record<string, unknown>) {
+
+	console.log(`url: ${base}/${resource} - method: ${method} - data: ${data}`);
+
 	return fetch(`${base}/${resource}`, {
 		method,
 		headers: {
